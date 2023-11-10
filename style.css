@@ -32,8 +32,6 @@ p{
 section{
   display: block;
 }
-
-
  *,*:before,*:after{
     word-break:break-all;
     -webkit-box-sizing: break-all;
@@ -50,7 +48,6 @@ section{
  }
  .Header{
    width: 100%
-   
  }
   
     
@@ -80,7 +77,7 @@ section{
   }
   
   .headerLogo_image_phone{
-    display: none
+    display: none;
   }
   
 
@@ -116,9 +113,6 @@ section{
   .HeaderNavListItem_button:hover{
     background-color:rgb(249, 194, 65);
   }
-  
-  
-  
   .HeaderNavListItem_button{
     align-items:center;
     background-color: #f79214;
@@ -132,21 +126,18 @@ section{
     font-weight: 700;
     height:64px;
     justify-content:center;
-    text-decoration: none
+    text-decoration: none;
     text-align: center;
     width:100%;
-    
   }
-  
-
-
+  /*URL取得*/
   
  .FirstView{
-    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+    background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg");
     background-size: cover;
     background-position: center;
     padding-top: 100px;
-    padding-bottom: 28px
+    padding-bottom: 28px;
  }
  
 .FirstViewBackgroundPhone{
@@ -179,7 +170,7 @@ section{
    line-height:54px;
    margin-bottom:15px;
    text-align:center;
-   margin-top: 25px
+   margin-top: 25px;
  }
  .FirstView_images{
    display:flex;
@@ -214,9 +205,6 @@ section{
    text-align: center;
    width: 100%;
   }
-  
- 
-
  .FirstViewSupplement{
    color:gray;
    font-size:12px;
@@ -225,13 +213,7 @@ section{
    color: #A2A2A4;
  }
  
- 
- 
- 
- 
- 
- 
- 
+ /*wrapper*/
  
  .AboutBar{
    padding:120px 0;
@@ -255,10 +237,9 @@ section{
  .Whats_potepan{
    display: flex;
    flex-direction: column;
-   margin-bottom: 60px;
    width: 100%;
    align-items: flex-start;
-   margin-bottom: 0;
+   margin-bottom:0;
    margin-left: 32px;
  }
  .Whats_potepan h2{
@@ -298,14 +279,6 @@ section{
  .VideoAbout{
    width: 50%;
  }
- 
- 
- 
- 
- 
- 
- 
- 
    /*responsive */
  
  @media screen and ( max-width:1080px ) {
@@ -316,9 +289,6 @@ section{
   .Header--common{
     position: fixed !important
   }
-  
-  
-  
   .HeaderNavList {
     position: fixed;
     overflow-y: scroll;
@@ -366,12 +336,6 @@ section{
   .HeaderNavList.is-active {
     transform: translate3d(-100%,0,0);
   }
-  
-  
-  
-  
-  
- 
   .HeaderNavListItem {
     margin-right: 0;
   }
